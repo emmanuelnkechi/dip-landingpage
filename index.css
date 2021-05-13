@@ -193,7 +193,7 @@ a.nav-link:hover{
 }
 
 /* for mobile view */
-@media only screen and (min-width: 320px) and (max-width: 767px) {
+@media only screen and (min-width: 280px) and (max-width: 767px) {
   header {
     padding: 2.5rem 2rem;
   }
@@ -217,6 +217,9 @@ a.nav-link:hover{
     display: grid;
     grid-template-columns: 1fr;
   }
+  .mobile-row{
+      gap: 2rem !important;
+  }
   div.grid-boxes.rounded.shadow {
     box-shadow: none !important;
   }
@@ -235,7 +238,7 @@ word-spacing: 4px;
   .second-box,
   .third-box {
     margin-top: 2rem !important;
-    padding: 2.5rem 1rem;
+    padding: 2rem 1rem;
     border: 1px solid #eeeff2;
     background: rgba(255, 255, 255, 1);
   }
