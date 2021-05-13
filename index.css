@@ -153,7 +153,7 @@ a.nav-link:hover{
 .free-diff {
   padding: 4rem 4rem;
   padding: 0 auto;
-  border: 2px solid #f53838;
+  border: 2px solid #f53838 !important;
   text-align: center;
   border-radius: 10px !important;
 }
