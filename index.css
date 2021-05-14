@@ -354,6 +354,8 @@ a.nav-link:hover {
   border: 2px solid #dddddd;
 }
 .directions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 50px 8rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -365,23 +367,26 @@ a.nav-link:hover {
   -ms-flex-align: center;
   align-items: center;
 }
-/* .carousel-item {
- 
-}
-.carousel-indicators {
 
-} */
 .directions .points {
+  width: 7rem;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex !important;
 }
+
 .directions .points .round {
   border: 1px solid red;
+  
   border-radius: 50px;
   width: 20px;
   height: 20px;
   margin-right: 12px;
+}
+.controls-top{
+  float: right;
 }
 .directions .left,
 .directions .right {
@@ -407,6 +412,9 @@ a.nav-link:hover {
 .points .active{
   color:#fff;
   background-color:red;
+}
+.round{
+  background-color: #fff;
 }
 
 .cta-section {
