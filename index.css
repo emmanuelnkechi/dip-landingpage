@@ -677,13 +677,16 @@ a.nav-link:hover {
     display: none;
   }
   .maps-title {
-    padding: 2rem 0;
+    margin: 0 ;
+    padding: 1rem 0;
   }
   .maps-title h3 {
     font-size: 25px;
+    margin: 0 auto ;
   }
   .maps-title p {
     width: 60%;
+    margin:0 auto;
   }
   .partners {
     overflow-x: scroll;
@@ -722,23 +725,28 @@ a.nav-link:hover {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
-    font-size: 0px;
     left: 9%;
     padding: 10px 0px;
     bottom: -280px;
+    margin: 0 auto;
   }
   .cta-section h4 {
-    font-size: 12px;
-    width: 160px;
+    font-size: 16px; 
+    width: 200px;
+    line-height:20px;
+    margin-left: 50px;
+    margin: 0 auto;
+    text-align: center; 
   }
   .cta-section p {
-    font-size: 10px;
-     line-height: 0px;
+    font-size: 12px;
+     line-height: 10px;
   }
   .cta-content,
   .cta-button {
     padding-top: 12px;
-    margin: 0 5px;
+    padding-bottom: 12px;
+    /* margin: 0 5px; */
   }
   .cta-button button {
     padding: 15px 30px;
