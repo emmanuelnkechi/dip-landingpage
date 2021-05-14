@@ -365,10 +365,16 @@ a.nav-link:hover {
   -ms-flex-align: center;
   align-items: center;
 }
+/* .carousel-item {
+ 
+}
+.carousel-indicators {
+
+} */
 .directions .points {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex !important;
 }
 .directions .points .round {
   border: 1px solid red;
@@ -388,14 +394,19 @@ a.nav-link:hover {
   border-radius: 50%;
   width: 60px;
   height: 60px;
+  transition: all ease .4s;
 }
 .directions .left .row,
 .directions .right .row {
-  line-height: 60px;
+  line-height: 56px;
 }
-.directions .right {
+.directions .right:hover, .directions .left:hover{
   color: #fff;
   background-color: red;
+}
+.points .active{
+  color:#fff;
+  background-color:red;
 }
 
 .cta-section {
