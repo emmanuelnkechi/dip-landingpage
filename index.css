@@ -84,6 +84,7 @@ a.nav-link:hover {
 .get-started {
   margin-top: 2rem;
   color: #fff;
+  box-shadow: 0 25px 25px -15px #f53838 !important;
   background: rgba(245, 56, 56, 1);
   border-radius: 10px;
   border: none;
@@ -93,6 +94,8 @@ a.nav-link:hover {
 .grid-boxes {
   margin-top: 7rem;
   display: grid;
+  box-shadow: 1px 15px 26px 9px rgba(0,0,0,0.15)!important;
+  /* box-shadow: 0 25px 25px -15px grey !important; */
   grid-template-columns: 1fr 1fr 1fr;
 }
 .first-box,
@@ -113,7 +116,7 @@ a.nav-link:hover {
 }
 .icon-images{
   height: 1.5rem; 
-  margin: 16px auto;
+  margin: 18px auto;
 }
 .icon-span {
   width: 60px;
@@ -159,13 +162,13 @@ a.nav-link:hover {
   margin-top: 4rem;
 }
 .free {
-  padding: 4rem 4rem;
+  padding: 4rem 2rem;
   padding: 0 auto;
   text-align: center;
   border-radius: 10px !important;
 }
 .free-diff {
-  padding: 4rem 4rem;
+  padding: 4rem 2rem;
   padding: 0 auto;
   border: 2px solid #f53838 !important;
   text-align: center;
@@ -201,6 +204,7 @@ a.nav-link:hover {
 }
 .features {
   height: 200px;
+   margin-left: 1rem !important;
 }
 .opa {
   opacity: 0.7 !important;
@@ -606,7 +610,7 @@ a.nav-link:hover {
   .mobile-row {
     gap: 2rem !important;
   }
-  div.grid-boxes.rounded.shadow {
+  div.grid-boxes.rounded {
     box-shadow: none !important;
   }
   .want-easy {
